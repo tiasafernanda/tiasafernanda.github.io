@@ -227,7 +227,7 @@ img {
 }
 
 .nav__list {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -788,6 +788,9 @@ img {
     grid-template-columns: 0.6fr;
     justify-content: center;
   }
+
+  .footer__socials {
+    justify-self: flex-end;
 }
 
 @media screen and (min-width: 768px) {
@@ -917,4 +920,7 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .footer__socials {
+    justify-self: flex-end;
 }
