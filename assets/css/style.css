@@ -175,7 +175,7 @@ img {
 
 .header {
   width: 100%;
-  height: 10%;
+  height: 15%;
   position: fixed;
   bottom: 0rem;
   left: 0;
@@ -713,8 +713,8 @@ img {
 }
 
 /* Show scroll */
-.show_scroll {
-  bottom: 5rem;
+.show-scroll {
+  bottom: 8rem;
 }
 
 /*========== SCROLL BAR ==========*/
@@ -879,7 +879,7 @@ img {
   }
 
   .footer__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .footer__bg {
     padding: 3rem 0 3.5rem;
