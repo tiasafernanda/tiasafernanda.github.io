@@ -1,5 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -24,7 +24,7 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: "Montserrat", sans-serif;
+  --body-font: 'Montserrat', sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -301,6 +301,10 @@ img {
   color: var(--first-color-alt);
 }
 
+.home__social-icon:visited {
+  color: var(--first-color);
+}
+
 .home__blob {
   width: 200px;
   fill: var(--first-color);
@@ -483,20 +487,20 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__office {
+.skills__html {
   width: 90%;
 }
 
-.skills__figma {
-  width: 80%;
-}
-
-.skills__photoshop {
-  width: 80%;
-}
-
-.skills__premiere {
+.skills__css {
   width: 85%;
+}
+
+.skills__javascript {
+  width: 80%;
+}
+
+.skills__react {
+  width: 80%;
 }
 
 .skills__close .skills__list {
@@ -584,6 +588,7 @@ img {
 .qualification__button.qualification__active {
   color: var(--first-color);
 }
+*/
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
