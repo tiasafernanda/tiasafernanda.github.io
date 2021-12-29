@@ -868,9 +868,7 @@ img {
     .about__img {
       width: 350px;
     }
-    .about__description {
-      text-align: initial;
-    }
+    
     .about__button {
       justify-content: initial;
     }
